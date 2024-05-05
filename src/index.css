@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+    
+    p {
+        @apply text-6xl font-bold
+    }
+    span {
+        @apply font-timer tracking-widest
+    }
+    h1 {
+        @apply uppercase text-red-400 text-3xl font-numbers
+    }
+}
+
+@layer components {
+    .timer-boxs {
+        @apply basis-1/4 text-2xl text-white border w-48 rounded-md h-48 p-5 uppercase flex flex-col justify-around font-numbers shadow-xl hover:shadow-red-400;
+    }
+}
