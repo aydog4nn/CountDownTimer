@@ -19,6 +19,6 @@
 
 @layer components {
     .timer-boxs {
-        @apply basis-1/4 text-2xl text-white border w-48 rounded-md h-48 p-5 uppercase flex flex-col justify-around font-numbers shadow-xl hover:shadow-red-400;
+        @apply basis-1/4 text-2xl text-white border w-48 md:w-44 lg:w-48 rounded-md h-48 p-5 uppercase flex flex-col justify-around font-numbers shadow-xl hover:shadow-red-400;
     }
 }

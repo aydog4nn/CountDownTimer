@@ -34,7 +34,7 @@ function App() {
                         <h1 className="mt-2">This is an idea</h1>
                     </div>
                 </div>
-                <div className="flex flex-row basis-1/3 gap-5 text-center  items-center ">
+                <div className="flex flex-col md:flex-row lg:flex-row basis-1/3 gap-5 text-center  items-center ">
                     <div className="timer-boxs " id="box">
                         <p>{days}</p>
                         <span>days</span>
